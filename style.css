@@ -3,12 +3,13 @@ body{
   background: #000;
 }
 *{
-  box-sizing: border-box;
+  box-sizing:border-box;
   margin:0;
+  padding:0;
 }
 .container{
   width:375px;
-  height:100vh;
+  height:2165px;
   background:#ffffff;
   margin:0 auto;
 }
@@ -31,7 +32,6 @@ i{
 }
 .john{
   width:170px;
-  margin-top: -50px;
 }
 .intro{
   text-align:center;
@@ -64,4 +64,147 @@ i{
   font-size:20px;
   line-height: 29.38px;
   color:white;
+}
+.RPosts{
+  width:100%;
+  height:647px;
+  margin:58px 0 0 0;
+  background:#EDF7FA;
+}
+.RPostsText{
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size:18px;
+  line-height: 60px;
+  color:#21243D;
+  text-align:center;
+}
+.RPosts1{
+  width: 354px;
+  height: 266px;
+  border-radius:4px;
+  margin:0 10px 17px 11px;;
+  background:white;
+  display: inline-block;
+}
+.RpostMText{
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size:22px;
+  line-height: 30px;
+  color:#21243D;
+  margin:12px 8px 0 19px;
+}
+.time{
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size:16px;
+  line-height: 23.5px;
+  color:#21243D;
+  margin:12px 0 19px 19px;
+}
+.RpostText{
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size:16px;
+  line-height: 23.5px;
+  color:#21243D;
+  margin:0 19px;
+}
+.FWorksT{
+  width: 124px;
+  height: 60px;
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size:18px;
+  line-height: 60px;
+  color:#21243D;
+  margin:2px auto;
+}
+.ddbox{
+  width: 344px;
+  height: 455px;
+  margin:0 auto;
+  border-bottom: 1px solid #E0E0E0;
+}
+.ddimg{
+  width: 339px;
+  height: 230px;
+  border-radius:6px;
+}
+.ddmText{
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size:24px;
+  line-height: 30px;
+  color:#21243D;
+  margin:16px 0;
+  width: 244px;
+  height: 30px;
+}
+.ddyear{
+  width: 62px;
+  height: 25px;
+  background:#21243D;
+  border-radius:16px;
+}
+.ddyeart{
+  font-family: "Heebo", sans-serif;
+  font-weight: 900;
+  font-size:16px;
+  color:white;
+  width: 38px;
+  height: 25px;
+  margin:0 12px;
+}
+.ddDb{
+  width: 78px;
+  height: 24px;
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size:16px;
+  line-height: 23.5px;
+  color:#8695A4;
+  margin:-25px 84px;
+}
+.ddText{
+  width: 344px;
+  height: 96px;
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size:16px;
+  line-height: 23.5px;
+  color:#21243D;
+  margin:44px 0;
+}
+.footer{
+  width: 375px;
+  height: 182px;
+  margin-top:150px;
+  display: inline-block;
+}
+.icon1,.icon2,.icon4{
+  width: 30px;
+  height: 30px;
+}
+.icon3{
+  width:36.92px;
+  height: 30px;
+}
+.iconbox{
+  width: 232px;
+  height: 30px;
+  display:flex;
+  justify-content:space-between;
+  margin:51px 0 0 71px;
+}
+.RReserved{
+  width: 375px;
+  height: 21px;
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size:16px;
+  line-height: 20.56px;
+  text-align:center;
+  margin-top:26px;
 }
