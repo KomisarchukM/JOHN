@@ -9,7 +9,7 @@ body{
 }
 .container{
     width: 375px;
-    height: 1063px;
+    height: 1265px;
     background:#ffffff;
     margin: 0 auto;
 }
@@ -23,61 +23,79 @@ i{
     font-size: 30px;
     margin: 10px;
 }
-.blogT{
+.workT{
     font-family: "Heebo", sans-serif;
     font-weight: 700;
     font-size: 30px;
     line-height: 60px;
     color:#21243D;
-    margin: 24px 18px;
+    margin:24px 0 13px 18px;
 }
-.blog1{
-    width: 339px;
-    height: 204px;
-    margin: 18px;
+.ddbox{
+    width: 344px;
+    height: 455px;
+    margin: 13px 0 22px 18px;
     border-bottom: 1px solid #E0E0E0;
 }
-.mtext{
-    font-family: "Heebo", sans-serif;
-    font-weight: 500;
-    font-size: 26px;
-    line-height: 38.19px;
-    color:#21243D;
+.ddimg{
+    width: 339px;
+    height: 230px;
+    border-radius:6px;
 }
-.datebox{
-    width: 265px;
+.ddmText{
+    font-family: "Heebo", sans-serif;
+    font-weight: 700;
+    font-size:24px;
+    line-height: 30px;
+    color:#21243D;
+    margin:16px 0;
+    width: 244px;
+    height: 30px;
+}
+.ddyear{
+    width: 62px;
+    height: 25px;
+    background:#21243D;
+    border-radius:16px;
+}
+.ddyeart{
+    font-family: "Heebo", sans-serif;
+    font-weight: 900;
+    font-size:16px;
+    color:white;
+    width: 38px;
+    height: 25px;
+    margin:0 12px;
+}
+.ddDb{
+    width: 78px;
     height: 24px;
-    margin:5px 0 17px 0;
-    display: inline-block;
-}
-.date{
     font-family: "Heebo", sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 23.5px;
-    color:#21243D;
-}
-.express{
-    font-family: "Heebo", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    font-size:16px;
     line-height: 23.5px;
     color:#8695A4;
-    margin:-23.5px 0 0 109px;
+    margin:-25px 84px;
 }
-.text{
-    width: 339px;
+.ddText{
+    width: 344px;
     height: 96px;
     font-family: "Heebo", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size:16px;
     line-height: 23.5px;
     color:#21243D;
+    margin:44px 0;
+}
+.ddbox1{
+    width: 344px;
+    height: 455px;
+    margin: 22px 0 0 18px;
+    border-bottom: 1px solid #E0E0E0;
 }
 .footer{
     width: 375px;
     height: 182px;
-    margin-top:57px;
     display: inline-block;
 }
 .icon1,.icon2,.icon4{
