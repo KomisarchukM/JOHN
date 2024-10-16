@@ -23,6 +23,27 @@ i{
   font-size:30px;
   margin:10px;
 }
+.nav{
+  display:none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position:absolute;
+  top:0px;
+  left:569px;
+  width:375px;
+  height:100vh;
+  background: #21243D;
+  list-style-type: none;
+}
+.white-icon{
+  color:#E0E0E0;
+}
+.nav a{
+  color:#E0E0E0;
+  font-size: 20px;
+  text-decoration: none;
+}
 .img-wrapper{
   height: 170px;
   width: 170px;
