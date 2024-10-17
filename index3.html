@@ -10,7 +10,13 @@
 <body>
     <div class="container">
         <div class="header">
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            <ul class="nav">
+              <i class="fa-solid fa-x white-icon" onclick="hideMenu()" class="cross"></i>
+              <li><a href="index.html">Main page</a></li>
+              <li><a href="index1.html">Our Blog</a></li>
+              <li><a href="index2.html">Our Work</a></li>
+            </ul>
         </div>
         <h2 class="Mtext">Designing Dashboards<br>with usability in mind</h2>
         <div class="myear"><h6 class="myeart">2020</h6></div>
@@ -33,5 +39,6 @@
         </div>
 
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -12,6 +12,8 @@ body{
   height:2165px;
   background:#ffffff;
   margin:0 auto;
+  position:relative;
+
 }
 .header{
   display:flex;
@@ -30,7 +32,7 @@ i{
   justify-content: space-evenly;
   position:absolute;
   top:0px;
-  left:569px;
+  left:0px;
   width:375px;
   height:100vh;
   background: #21243D;
