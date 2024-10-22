@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+:root{
+  scroll-behavior: smooth;
+}
 body{
   background: #000;
 }
@@ -230,4 +233,24 @@ i{
   line-height: 20.56px;
   text-align:center;
   margin-top:26px;
+}
+.btt{
+  position:fixed;
+  bottom:20px;
+  right:587px;
+  display:none;
+  align-items: center;
+  justify-content: center;
+  padding:5px;
+  border-radius: 5px;
+  background-color: #21243D;
+  text-decoration: none;
+  transition: 0.2s ease-out;
+}
+.bbt:hover{
+  background-color: #8695A4;
+}
+.bbt span{
+  color: #E0E0E0;
+  font-size: 30px;
 }
