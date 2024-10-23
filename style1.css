@@ -22,10 +22,14 @@ body{
     justify-content:flex-end;
 }
 i{
-    font-size: 30px;
-    margin: 10px;
-}
-.nav{
+    font-size:30px;
+    margin:10px;
+    transition: 0.17s ease-out;
+  }
+  i:hover{
+    font-size: 35px;
+  }
+  .nav{
     display:none;
     align-items: center;
     flex-direction: column;
@@ -45,6 +49,11 @@ i{
     color:#E0E0E0;
     font-size: 20px;
     text-decoration: none;
+    transition: 0.17s ease-out;
+  }
+  .nav a:hover{
+    font-size: 25px;
+    color:white;
   }
 .blogT{
     font-family: "Heebo", sans-serif;

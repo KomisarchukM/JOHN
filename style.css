@@ -27,6 +27,10 @@ body{
 i{
   font-size:30px;
   margin:10px;
+  transition: 0.17s ease-out;
+}
+i:hover{
+  font-size: 35px;
 }
 .nav{
   display:none;
@@ -48,6 +52,11 @@ i{
   color:#E0E0E0;
   font-size: 20px;
   text-decoration: none;
+  transition: 0.17s ease-out;
+}
+.nav a:hover{
+  font-size: 25px;
+  color:white;
 }
 .img-wrapper{
   height: 170px;
